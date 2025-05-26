@@ -1,8 +1,16 @@
 /* ------------------------------------------- Nav */
 
+body { font-family: "Roboto Slab", serif; }
+
+
 .nav {
     display: grid;
-    
+
+}
+
+a { 
+    color: #3a4934; 
+    &:hover { color: #4d6543; }
 }
 
 
@@ -10,11 +18,22 @@
 
 
 
+/* ------------------------------------------- Slick Sitewide Message */
+
+.l-slick {
+    display: flex; 
+    gap: 20px;
+}
+
+
+.phoneNumber { 
+    text-align: end;
+    span { display: block; }
+}
+
+
+
 /* ------------------------------------------- Home Hero Image */
-
-
-  
-  
   .homepageBanner {
     background-image: url("https://leger.imgix.net/Destinations/Battlefields_D89/Dunkirk_P3507/remains-of-allied-ship-at-dunkirk-21757.jpg?fit=crop&crop=edges&auto=compress,format&q=0&sepia=5&w=1600&h=800");
     height: 320px;
@@ -35,7 +54,14 @@
   }
   
 
-  
+  /* ------------------------------------------- TOUR TITLE */
+
+  .underBannerSection {
+    margin: 20px 0;
+
+    h1, h5 { line-height: 1.1;   }
+    
+  }
 
   
 
