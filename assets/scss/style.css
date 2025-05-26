@@ -1,0 +1,27 @@
+/* ------------------------------------------- Nav */
+.nav {
+  display: grid;
+}
+
+/* ------------------------------------------- Home Hero Image */
+.homepageBanner {
+  background-image: url("https://leger.imgix.net/Destinations/Battlefields_D89/Dunkirk_P3507/remains-of-allied-ship-at-dunkirk-21757.jpg?fit=crop&crop=edges&auto=compress,format&q=0&sepia=5&w=1600&h=800");
+  height: 320px;
+  background-position: cover;
+  background-repeat: no-repeat;
+}
+@media screen and (min-width: 768px) {
+  .homepageBanner {
+    height: 576px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .homepageBanner {
+    height: 570px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .homepageBanner {
+    height: 570px;
+  }
+}/*# sourceMappingURL=style.css.map */
